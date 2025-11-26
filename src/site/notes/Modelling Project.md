@@ -42,11 +42,13 @@ $F = Torque / R_P$      -> Rp is Radius of pulley
 >[!tip] Having the deadzone **KNOWN** in the model before hand allows the parameter estimator to work better with more accuracy.
 
 
-- 
+-  for noise, do NOT use low-band or bands filter in general, Filters introduce lags in response and will make the output go through a first order system to "filter", use a 
+### Zero Lag filter :
+	Averaging the future and past values of speed (for example) will smooth out the curve and not introduce lags, this filter exists in the parameter estimator tool. to use a system like this you should already have a low-noise system and this is a final step
+
+- Using the ideal blocks in SIMULINK model, and leaving only the load mass to be estimated, we're effectively estimating an equivalent model **at** the load. BUT if we use the parameters when we estimated the motor alone, now we're estimating just the system damping eq. at the load without the motor, the more we separate components the better and more accurate numbers we get.
 
 ---
-
-
 
 
 # - Physical model (?)
@@ -55,7 +57,3 @@ $F = Torque / R_P$      -> Rp is Radius of pulley
 
 <p align='center' style="font-size: 1.5em;"> Generated using AI </p>
  بس حاسسها كويسة و بسيطة و سهلة كفاية ان احنا نعملها و مش هيبقى في عوامل كتيرة تاثر علينا في الحسابات و الموديل دا حساباته سهله
- 
-
-
-[[How to use obsidian\|How to use obsidian]]
