@@ -29,7 +29,7 @@ mmkn n8er el tolerances and the optimization algorithms for more accurate iterat
 
 $V=\frac{i}{Ra}$ , $V*Ra =i$ , $Torque = Kt*i$ 
 and from torque we can know how much force in newtons friction in our system is
-$F = Torque / R_P$      -> Rp is Radius of pulley
+$delta F = Torque / R_P$      -> Rp is Radius of pulley
 
 >[!tip] we do not have Back emf here since we are testing deadzone, meaning we have current but no working motor rpm
 
