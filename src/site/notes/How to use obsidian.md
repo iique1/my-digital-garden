@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/how-to-use-obsidian/"}
 ---
 
-ty
+
 > asd
 
 asd
