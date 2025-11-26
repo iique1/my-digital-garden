@@ -55,4 +55,6 @@ $F = Torque / R_P$      -> Rp is Radius of pulley
 
 <p align='center' style="font-size: 1.5em;"> Generated using AI </p>
  بس حاسسها كويسة و بسيطة و سهلة كفاية ان احنا نعملها و مش هيبقى في عوامل كتيرة تاثر علينا في الحسابات و الموديل دا حساباته سهله
+ 
+ 
 [[How to use obsidian\|How to use obsidian]]
